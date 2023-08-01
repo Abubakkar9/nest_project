@@ -33,8 +33,8 @@ import { TwilioModule } from 'nestjs-twilio';
     }),
 
     TwilioModule.forRoot({
-      accountSid: "ACdd07930fe74868fa1c33728c11341649",
-      authToken: "e0b080239aa49d436f8d44634370b318",
+      accountSid: "{YOUR ACCOUNT SID HERE}",
+      authToken: "{YOUR ACCOUNT TOKEN HERE}",
     }),
   
   ],
